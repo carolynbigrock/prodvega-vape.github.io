@@ -25,7 +25,7 @@ a:focus,
 .btn:active:hover,
 .btn:active:focus{outline:none;}
 a:hover,a:focus{text-decoration:none;cursor:pointer;}
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,600,800,900');body *{font-family:'Poppins', sans-serif;}
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900');body *{font-family:'Poppins', sans-serif;}
 .page-seo-header{display:none;}
 body:not(.modal-open) .container-fluid{position:relative;z-index:1060;}
 .clearfix{clear:both;}

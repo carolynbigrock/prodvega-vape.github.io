@@ -150,7 +150,7 @@
 }
 .banner-sub-text,
 .product-item-textual-wrap .pdt-desc{
-    font-weight: 400;
+    font-weight: 500;
     opacity: 0.84;
 }
 .page-section{
@@ -433,6 +433,9 @@
     #footer nav{
         display: block;
     }
+    #header nav a,#footer nav a{
+        font-size: 10px;
+    }
     .where-to-find-section .our-products-wrap{
         padding: 30px 51px 0;
     }
@@ -479,6 +482,7 @@
     }
     #about-us-section .our-products-textual-wrap{
         padding: 10px 65px 10px 45px;
+        text-align: right;
     }
     #about-us-section .our-products-wrap{
         -webkit-box-orient: horizontal;
@@ -531,9 +535,6 @@
     }
     .age-accept-btn{
         font-size: 11px;
-    }
-    #header nav a,#footer nav a{
-        font-size: 10px;
     }
     .site-logo{
         width: 132px;
