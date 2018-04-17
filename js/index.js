@@ -29,14 +29,7 @@ $(document).ready(function() {
         if (scroll >= stickyOffset) sticky.addClass('sticky');
         else sticky.removeClass('sticky');
         $('.page-section').each( function(i){
-            var bottom_of_object;
-            if($(document).width()>768){
-                bottom_of_object = ($(this).offset().top + $(this).outerHeight())/1.5;
-            }
-            else{
-                bottom_of_object = ($(this).offset().top + $(this).outerHeight())/2;
-
-            }
+            var bottom_of_object = ($(this).offset().top + $(this).outerHeight())/2;
             var bottom_of_window = $(window).scrollTop() + $(window).height();
             if( bottom_of_window > bottom_of_object ){           
                 $(this).addClass('in-view');

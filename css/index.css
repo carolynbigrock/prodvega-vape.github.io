@@ -155,9 +155,9 @@
 }
 .page-section{
     opacity: 0;
-    -webkit-transition: opacity 0.8s;
-    -o-transition: opacity 0.8s;
-    transition: opacity 0.8s;
+    -webkit-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 }
 .product-item-textual-wrap .banner-sub-text.pdt-name,
 .page-section.in-view{
